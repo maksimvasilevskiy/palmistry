@@ -73,7 +73,7 @@ export default function DateForm({ projects }: Props) {
           'Date not found. Please check your details and try again.'
         )}
       </p>
-      <Button type="submit" disabled={!isValid || !isDirty || isSubmitting}>
+      <Button type="submit" disabled={!isValid || isSubmitting}>
         Next
       </Button>
     </form>
