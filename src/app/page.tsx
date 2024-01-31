@@ -17,7 +17,7 @@ export default function Home() {
           <div className="bg-[#00a3ff] w-[22.22%] h-[6px] rounded-[8px] mt-[-1.5px]"></div>
         </div>
       </div>
-      <div className="flex justify-center flex-col px-6 py-8">
+      <div className="flex justify-center flex-col px-6 py-8 text-black">
         <div className="text-xl font-medium text-center">
           What’s your date of birth?
         </div>
