@@ -33,7 +33,7 @@ export default function DateForm({ projects }: Props) {
     formState: { errors, isValid, isSubmitting, isDirty },
   } = useZodForm({
     schema,
-    mode: "onBlur",
+    mode: "all",
   });
 
   const onSubmit = handleSubmit((data) => {
